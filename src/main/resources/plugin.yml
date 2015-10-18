@@ -1,0 +1,10 @@
+name: ${plugin.name}
+main: ${plugin.mainClass}
+version: 1.0
+author: Ktar5
+depend: [LightAPI]
+commands:
+  litebrite:
+    description: Base command for LiteBrite plugin
+    permission: litebrite.use
+    aliases: [lb]
